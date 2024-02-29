@@ -53,10 +53,3 @@ Usma Niyaz
 
 If you have any questions, please contact us directly.
 
-## Additional Info
-
-
-
-## Acknowledgements
-
-- Thanks Chaoyang hospital for dataset annotation.
