@@ -1,10 +1,10 @@
-##Dataset
+![model1](https://github.com/UsmaBhat/Wavelet-Based-Feature-Compression-for-Improved-Knowledge-Distillation/assets/161701323/a47a2ef7-b2ea-43a1-9f84-3d67a3008c6c)##Dataset
 - I have downloaded the Chaoyang dataset from here [HERE](https://bupt-ai-cz.github.io/HSA-NRL/).
 -  Chaoyang dataset contains 1111 normal, 842 serrated, 1404 adenocarcinoma, 664 adenoma, and 705 normal, 321 serrated, 840 adenocarcinoma, 273 adenoma samples for training and testing, respectively. (Notes: "0" means normal, "1" means serrated, "2" means adenocarcinoma, and "3" means adenoma in our dataset files.)
 
 ## Citation
 If you use this code/data for your research, please cite our paper ["Wavelet-Based Feature Compression for Improved Knowledge Distillation"].
-
+![Uploading model1.png…]()
 ```
 @article{Usma,
   title={Wavelet-Based Feature Compression for Improved Knowledge Distillation},
@@ -17,18 +17,19 @@ If you use this code/data for your research, please cite our paper ["Wavelet-Bas
 
 ## Using instructions
 
-
 - **Getting started:**
 
     Run `python main.py -a 0.1 -p 4 -e 200 -n 1 -r 1 -v V1 -w 1 -keep 50`  train the model.
-    1. alpha (-a): weightage is given to the distillation in the loss function, e.g., -a 0.2
-    2. GPU (-p): GPU device selected for your program, e.g., p 1 (GPU #1 is selected)
-    3. epochs (-e): For how many epochs you want to run the program
-    4. #run (n): Run the program for three runs. For the 1st run n should be 1 e.g., n 1
-    5. run (-r) : -r 1  Train/ -r 0 Test
-    6. version (-v) : V1: ResNet50-ResNet18, V2: ResNet50-MobileNetV2
-    7. run_wavelet(-w): run the program with or without wavelet
-    8. keep(-k): how much percent of the coefficients to keep in wavelets
+    1. alpha (-a): Weightage given to distillation in the loss function (e.g., -a 0.2).
+    2. GPU (-p): GPU device selected for your program (e.g., -p 1 for GPU #1).
+    3. epochs (-e): Number of epochs to run the program.
+    4. #run (-n): Number of runs (e.g., -n 1 for the 1st run).
+    5. run (-r): -r 1 for training, -r 0 for testing.
+    6. version (-v): Choose between V1 (ResNet50-ResNet18) and V2 (ResNet50-MobileNetV2).
+    7. run_wavelet (-w): Run the program with or without wavelet.
+    8. keep (-keep): Percentage of coefficients to keep in wavelets.
+
+
 
 ## License
 
