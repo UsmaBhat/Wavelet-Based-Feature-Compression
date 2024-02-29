@@ -3,7 +3,7 @@
 -  Chaoyang dataset contains 1111 normal, 842 serrated, 1404 adenocarcinoma, 664 adenoma, and 705 normal, 321 serrated, 840 adenocarcinoma, 273 adenoma samples for training and testing, respectively. (Notes: "0" means normal, "1" means serrated, "2" means adenocarcinoma, and "3" means adenoma in our dataset files.)
 
 ## Citation
-If you use this code/data for your research, please cite our paper ["Wavelet-Based Feature Compression for Improved Knowledge Distillation"].
+If you use this code for your research, please cite our paper ["Wavelet-Based Feature Compression for Improved Knowledge Distillation"].
 ```
 @article{Usma,
   title={Wavelet-Based Feature Compression for Improved Knowledge Distillation},
@@ -11,9 +11,11 @@ If you use this code/data for your research, please cite our paper ["Wavelet-Bas
   journal={IEEE ISBI 2024}
 }
 ```
+## Overview of Proposed Framework
 ![model](https://github.com/UsmaBhat/Wavelet-Based-Feature-Compression-for-Improved-Knowledge-Distillation/assets/161701323/8b44e018-6ba2-4dc2-88af-9a44c18fe0c7)
 
-
+## Comparison with SOTA
+![vis3](https://github.com/UsmaBhat/Wavelet-Based-Feature-Compression-for-Improved-Knowledge-Distillation/assets/161701323/19d1a8b0-23f3-4561-90f2-0c99be3f22c8)
 
 
 ## Using instructions
