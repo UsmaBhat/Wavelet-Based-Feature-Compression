@@ -4,7 +4,6 @@
 
 ## Citation
 If you use this code/data for your research, please cite our paper ["Wavelet-Based Feature Compression for Improved Knowledge Distillation"].
-![Uploading model1.png…]()
 ```
 @article{Usma,
   title={Wavelet-Based Feature Compression for Improved Knowledge Distillation},
@@ -14,6 +13,7 @@ If you use this code/data for your research, please cite our paper ["Wavelet-Bas
 ```
 
 
+![model1](https://github.com/UsmaBhat/Wavelet-Based-Feature-Compression-for-Improved-Knowledge-Distillation/assets/161701323/31d98878-3b22-42cc-9696-7d2cb3826808)
 
 ## Using instructions
 
