@@ -1,4 +1,4 @@
-![model1](https://github.com/UsmaBhat/Wavelet-Based-Feature-Compression-for-Improved-Knowledge-Distillation/assets/161701323/a47a2ef7-b2ea-43a1-9f84-3d67a3008c6c)##Dataset
+##Dataset
 - I have downloaded the Chaoyang dataset from here [HERE](https://bupt-ai-cz.github.io/HSA-NRL/).
 -  Chaoyang dataset contains 1111 normal, 842 serrated, 1404 adenocarcinoma, 664 adenoma, and 705 normal, 321 serrated, 840 adenocarcinoma, 273 adenoma samples for training and testing, respectively. (Notes: "0" means normal, "1" means serrated, "2" means adenocarcinoma, and "3" means adenoma in our dataset files.)
 
@@ -11,9 +11,10 @@ If you use this code/data for your research, please cite our paper ["Wavelet-Bas
   journal={IEEE ISBI 2024}
 }
 ```
+![model](https://github.com/UsmaBhat/Wavelet-Based-Feature-Compression-for-Improved-Knowledge-Distillation/assets/161701323/8b44e018-6ba2-4dc2-88af-9a44c18fe0c7)
 
 
-![model1](https://github.com/UsmaBhat/Wavelet-Based-Feature-Compression-for-Improved-Knowledge-Distillation/assets/161701323/31d98878-3b22-42cc-9696-7d2cb3826808)
+
 
 ## Using instructions
 
