@@ -6,7 +6,7 @@
 If you use this code/data for your research, please cite our paper ["Wavelet-Based Feature Compression for Improved Knowledge Distillation"].
 
 ```
-@article{zhuhard,
+@article{Usma,
   title={Wavelet-Based Feature Compression for Improved Knowledge Distillation},
   author={Niyaz, Usma and Sambyal, Abhishek Singh and Bathula, Deepti},
   journal={IEEE ISBI 2024}
@@ -21,14 +21,14 @@ If you use this code/data for your research, please cite our paper ["Wavelet-Bas
 - **Getting started:**
 
     Run `python main.py -a 0.1 -p 4 -e 200 -n 1 -r 1 -v V1 -w 1 -keep 50`  train the model.
-    alpha (-a): weightage is given to the distillation in the loss function e.g. -a 0.2
-    GPU (-p): GPU device selected for your program e.g. -p 1 (GPU #1 is selected)
-    epochs (-e): For how many epochs you want to run the program
-    n (Ist run): Run the program for three runs
-  run (-r) : -r 1  Train/ -r 0 Test
-  version (-v) : V1: ResNet50-ResNet18, V2: ResNet50-MobileNetV2
-  run_wavelet(-w): run the program with or without wavelet
-  keep(-k): how much percent of the coefficients to keep in wavelets
+    1. alpha (-a): weightage is given to the distillation in the loss function, e.g., -a 0.2
+    2. GPU (-p): GPU device selected for your program, e.g., p 1 (GPU #1 is selected)
+    3. epochs (-e): For how many epochs you want to run the program
+    4. #run (n): Run the program for three runs. For the 1st run n should be 1 e.g., n 1
+    5. run (-r) : -r 1  Train/ -r 0 Test
+    6. version (-v) : V1: ResNet50-ResNet18, V2: ResNet50-MobileNetV2
+    7. run_wavelet(-w): run the program with or without wavelet
+    8. keep(-k): how much percent of the coefficients to keep in wavelets
 
 ## License
 
