@@ -22,7 +22,7 @@ If you use this code for your research, please cite our paper ["Wavelet-Based Fe
 
 - **Getting started:**
 
-    Run `python main.py -a 0.1 -p 4 -e 200 -n 1 -r 1 -v V1 -w 1 -keep 50`  train the model.
+    Run `python main.py -a 0.1 -p 4 -e 200 -n 1 -r 1 -v V1 -w 1 -k 50`  train the model.
     1. alpha (-a): Weightage given to distillation in the loss function (e.g., -a 0.2).
     2. GPU (-p): GPU device selected for your program (e.g., -p 1 for GPU #1).
     3. epochs (-e): Number of epochs to run the program.
